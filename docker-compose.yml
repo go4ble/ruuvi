@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  esphome:
+    image: ghcr.io/esphome/esphome:latest
+    volumes:
+      - ./:/config
+      - /etc/localtime:/etc/localtime:ro
+    privileged: true
+    network_mode: host
