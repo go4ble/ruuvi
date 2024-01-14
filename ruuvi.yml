@@ -105,3 +105,27 @@ sensor:
       name: ruuvi_freezer_1_movement_counter
     measurement_sequence_number:
       name: ruuvi_freezer_1_measurement_sequence_number
+  - platform: ruuvitag
+    mac_address: E3:44:1C:3F:38:AE
+    humidity:
+      name: ruuvi_screen_porch_humidity
+    temperature:
+      name: ruuvi_screen_porch_temperature
+    pressure:
+      name: ruuvi_screen_porch_pressure
+    acceleration:
+      name: ruuvi_screen_porch_acceleration
+    acceleration_x:
+      name: ruuvi_screen_porch_acceleration_x
+    acceleration_y:
+      name: ruuvi_screen_porch_acceleration_y
+    acceleration_z:
+      name: ruuvi_screen_porch_acceleration_z
+    battery_voltage:
+      name: ruuvi_screen_porch_battery_voltage
+    tx_power:
+      name: ruuvi_screen_porch_tx_power
+    movement_counter:
+      name: ruuvi_screen_porch_movement_counter
+    measurement_sequence_number:
+      name: ruuvi_screen_porch_measurement_sequence_number
