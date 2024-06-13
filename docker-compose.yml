@@ -1,5 +1,3 @@
-version: '2'
-
 services:
   esphome:
     image: ghcr.io/esphome/esphome:latest

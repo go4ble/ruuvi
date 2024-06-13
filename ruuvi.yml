@@ -37,95 +37,124 @@ sensor:
     mac_address: C8:DF:4E:93:A4:F2
     humidity:
       name: ruuvi_refrigerator_0_humidity
+      filters: &default_filters
+        throttle: 5minutes
     temperature:
       name: ruuvi_refrigerator_0_temperature
+      filters: *default_filters
     pressure:
       name: ruuvi_refrigerator_0_pressure
-    acceleration:
-      name: ruuvi_refrigerator_0_acceleration
-    acceleration_x:
-      name: ruuvi_refrigerator_0_acceleration_x
-    acceleration_y:
-      name: ruuvi_refrigerator_0_acceleration_y
-    acceleration_z:
-      name: ruuvi_refrigerator_0_acceleration_z
+      filters: *default_filters
+#    acceleration:
+#      name: ruuvi_refrigerator_0_acceleration
+#    acceleration_x:
+#      name: ruuvi_refrigerator_0_acceleration_x
+#    acceleration_y:
+#      name: ruuvi_refrigerator_0_acceleration_y
+#    acceleration_z:
+#      name: ruuvi_refrigerator_0_acceleration_z
     battery_voltage:
       name: ruuvi_refrigerator_0_battery_voltage
+      filters: *default_filters
     tx_power:
       name: ruuvi_refrigerator_0_tx_power
+      filters: *default_filters
     movement_counter:
       name: ruuvi_refrigerator_0_movement_counter
+      filters: *default_filters
     measurement_sequence_number:
       name: ruuvi_refrigerator_0_measurement_sequence_number
+      filters: *default_filters
   - platform: ruuvitag
     mac_address: CF:43:4B:6F:5A:87
     humidity:
       name: ruuvi_freezer_0_humidity
+      filters: *default_filters
     temperature:
       name: ruuvi_freezer_0_temperature
+      filters: *default_filters
     pressure:
       name: ruuvi_freezer_0_pressure
-    acceleration:
-      name: ruuvi_freezer_0_acceleration
-    acceleration_x:
-      name: ruuvi_freezer_0_acceleration_x
-    acceleration_y:
-      name: ruuvi_freezer_0_acceleration_y
-    acceleration_z:
-      name: ruuvi_freezer_0_acceleration_z
+      filters: *default_filters
+#    acceleration:
+#      name: ruuvi_freezer_0_acceleration
+#    acceleration_x:
+#      name: ruuvi_freezer_0_acceleration_x
+#    acceleration_y:
+#      name: ruuvi_freezer_0_acceleration_y
+#    acceleration_z:
+#      name: ruuvi_freezer_0_acceleration_z
     battery_voltage:
       name: ruuvi_freezer_0_battery_voltage
+      filters: *default_filters
     tx_power:
       name: ruuvi_freezer_0_tx_power
+      filters: *default_filters
     movement_counter:
       name: ruuvi_freezer_0_movement_counter
+      filters: *default_filters
     measurement_sequence_number:
       name: ruuvi_freezer_0_measurement_sequence_number
+      filters: *default_filters
   - platform: ruuvitag
     mac_address: E2:52:F5:A0:05:DD
     humidity:
       name: ruuvi_freezer_1_humidity
+      filters: *default_filters
     temperature:
       name: ruuvi_freezer_1_temperature
+      filters: *default_filters
     pressure:
       name: ruuvi_freezer_1_pressure
-    acceleration:
-      name: ruuvi_freezer_1_acceleration
-    acceleration_x:
-      name: ruuvi_freezer_1_acceleration_x
-    acceleration_y:
-      name: ruuvi_freezer_1_acceleration_y
-    acceleration_z:
-      name: ruuvi_freezer_1_acceleration_z
+      filters: *default_filters
+#    acceleration:
+#      name: ruuvi_freezer_1_acceleration
+#    acceleration_x:
+#      name: ruuvi_freezer_1_acceleration_x
+#    acceleration_y:
+#      name: ruuvi_freezer_1_acceleration_y
+#    acceleration_z:
+#      name: ruuvi_freezer_1_acceleration_z
     battery_voltage:
       name: ruuvi_freezer_1_battery_voltage
+      filters: *default_filters
     tx_power:
       name: ruuvi_freezer_1_tx_power
+      filters: *default_filters
     movement_counter:
       name: ruuvi_freezer_1_movement_counter
+      filters: *default_filters
     measurement_sequence_number:
       name: ruuvi_freezer_1_measurement_sequence_number
+      filters: *default_filters
   - platform: ruuvitag
     mac_address: E3:44:1C:3F:38:AE
     humidity:
       name: ruuvi_screen_porch_humidity
+      filters: *default_filters
     temperature:
       name: ruuvi_screen_porch_temperature
+      filters: *default_filters
     pressure:
       name: ruuvi_screen_porch_pressure
-    acceleration:
-      name: ruuvi_screen_porch_acceleration
-    acceleration_x:
-      name: ruuvi_screen_porch_acceleration_x
-    acceleration_y:
-      name: ruuvi_screen_porch_acceleration_y
-    acceleration_z:
-      name: ruuvi_screen_porch_acceleration_z
+      filters: *default_filters
+#    acceleration:
+#      name: ruuvi_screen_porch_acceleration
+#    acceleration_x:
+#      name: ruuvi_screen_porch_acceleration_x
+#    acceleration_y:
+#      name: ruuvi_screen_porch_acceleration_y
+#    acceleration_z:
+#      name: ruuvi_screen_porch_acceleration_z
     battery_voltage:
       name: ruuvi_screen_porch_battery_voltage
+      filters: *default_filters
     tx_power:
       name: ruuvi_screen_porch_tx_power
+      filters: *default_filters
     movement_counter:
       name: ruuvi_screen_porch_movement_counter
+      filters: *default_filters
     measurement_sequence_number:
       name: ruuvi_screen_porch_measurement_sequence_number
+      filters: *default_filters
